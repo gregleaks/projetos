@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <h1>Desenhe e Salve seus Desenhos</h1>
+
+        <div>
+            <label for="color">Cor</label>
+            <input type="color" id="color" value="#000000">
+            <label for="size">Espessura</label>
+            <input type="number" id="size" value="5" min="1" max="50">
+            <button id="save">Salvar Desenho</button>
+        </div>
+
+        <canvas id="canvas" width="800" height="600"></canvas>
+</body>
+<script src="./script.js"></script>
+</html>
